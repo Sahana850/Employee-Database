@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class JobService {
 
-    // ✅ Add Job
+    // Add Job
     public static void addJob(Scanner sc)  throws Exception  {
         System.out.print("Enter Job ID: ");
         int jobId = sc.nextInt();
@@ -30,7 +30,7 @@ public class JobService {
         }
     }
 
-    // ✅ Update Job
+    // Update Job
     public static void updateJob(Scanner sc)  throws Exception {
         System.out.print("Enter Job ID to update: ");
         int jobId = sc.nextInt();
@@ -80,7 +80,7 @@ public class JobService {
         }
     }
 
-    // ✅ View All Jobs
+    // View All Jobs
     public static void viewJobs()  throws Exception {
         String sql = "SELECT * FROM jobs ORDER BY job_id";
 
